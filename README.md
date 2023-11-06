@@ -1,37 +1,12 @@
 # Basic Layouts in Compose Codelab
 
-This folder contains the source code for
-the [Basic Layouts in Compose Codelab](https://developer.android.com/codelabs/jetpack-compose-layouts)
+Este código es una base para una aplicación Android que utiliza Compose para construir la interfaz de usuario. Proporciona ejemplos de diversos componentes de Compose que se utilizan para diseñar la interfaz de la aplicación, como barras de navegación, tarjetas y elementos de búsqueda.
+Declaración del paquete y las importaciones: Se define el paquete y se importan las bibliotecas necesarias para la aplicación. Las importaciones incluyen clases y funciones de Compose y otras bibliotecas de Android.
 
-## License
+Clase MainActivity: Esta clase representa la actividad principal de la aplicación. En su método onCreate, la aplicación configura el contenido utilizando Compose y determina el tamaño de la ventana. Dependiendo del ancho de la ventana, se selecciona una disposición específica (retrato o paisaje).
 
-```
-Copyright 2022 The Android Open Source Project
+Composables: A continuación, se definen varios composables (componentes de interfaz de usuario) que se utilizan para construir la interfaz de la aplicación. Algunos ejemplos incluyen SearchBar, AlignYourBodyElement, FavoriteCollectionCard, AlignYourBodyRow, HomeSection, HomeScreen, SootheBottomNavigation y SootheNavigationRail.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Funciones @Preview: Se incluyen funciones @Preview para mostrar vistas previas de los componentes en el diseño de la aplicación. Estas vistas previas son útiles para probar y visualizar cómo se verán los componentes en diferentes situaciones.
 
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-## Image asset attributions
-
-[fc1_short_mantras.jpg](https://www.pexels.com/photo/body-of-water-view-1825206/) - Elizaveta Kozorezova
-[fc2_nature_meditations.jpg](https://www.pexels.com/photo/photo-of-green-leaves-3571551/) - Nothing Ahead
-[fc3_stress_and_anxiety.jpg](https://www.pexels.com/photo/aerial-view-of-body-of-water-1557238/) - Jim
-[fc4_self_massage.jpg](https://www.pexels.com/photo/photography-of-stones-1029604/) - Scott Webb
-[fc5_overwhelmed.jpg](https://www.pexels.com/photo/white-clouds-3560044/) - Ruvim
-[fc6_nightly_wind_down.jpg](https://www.pexels.com/photo/time-lapse-photo-of-stars-on-night-924824/) - Jakub Novacek
-[ab1_inversions.jpg](https://www.pexels.com/photo/low-angle-view-of-woman-relaxing-on-beach-against-blue-sky-317157/) - Chevanon Photography
-[ab2_quick_yoga.jpg](https://www.pexels.com/photo/photo-of-woman-stretching-her-body-1812964/) - Agung Pandit Wiguna
-[ab3_stretching.jpg](https://www.pexels.com/photo/photo-of-women-stretching-together-4056723/) - Cliff Booth
-[ab4_tabata.jpg](https://www.pexels.com/photo/fashion-man-people-art-4662438/) - Elly Fairytale
-[ab5_hiit.jpg](https://www.pexels.com/photo/man-wearing-white-pants-under-blue-sky-999309/) - The Lazy Artist Gallery
-[ab6_pre_natal_yoga.jpg](https://www.pexels.com/photo/woman-doing-yoga-396133/) - freestocks.org
+Listas de datos: El código incluye listas de datos como alignYourBodyData y favoriteCollectionsData, que contienen información sobre elementos como imágenes y texto utilizados en la interfaz de la aplicación.
