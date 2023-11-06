@@ -12,3 +12,5 @@ Funciones @Preview: Se incluyen funciones @Preview para mostrar vistas previas d
 Listas de datos: El código incluye listas de datos como alignYourBodyData y favoriteCollectionsData, que contienen información sobre elementos como imágenes y texto utilizados en la interfaz de la aplicación.
 
 [![Img-app.png](https://i.postimg.cc/d0bPVtdg/Img-app.png)](https://postimg.cc/5HSkPJsm)
+
+[![img-app2.jpg](https://i.postimg.cc/HshSgvbh/img-app2.jpg)](https://postimg.cc/Xp9KK8Hf)
