@@ -10,3 +10,5 @@ Composables: A continuación, se definen varios composables (componentes de inte
 Funciones @Preview: Se incluyen funciones @Preview para mostrar vistas previas de los componentes en el diseño de la aplicación. Estas vistas previas son útiles para probar y visualizar cómo se verán los componentes en diferentes situaciones.
 
 Listas de datos: El código incluye listas de datos como alignYourBodyData y favoriteCollectionsData, que contienen información sobre elementos como imágenes y texto utilizados en la interfaz de la aplicación.
+
+[![Img-app.png](https://i.postimg.cc/d0bPVtdg/Img-app.png)](https://postimg.cc/5HSkPJsm)
